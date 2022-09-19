@@ -10,7 +10,12 @@ public class Operators
             boolean flag = true;
             i = 10;
             f = i + f;
-            flag = 
-            
+            flag = !flag;
+            while (i<1) {
+                System.out.print(i++);
+            }
+            System.out.print(i);
+            System.out.print(f);
+            System.out.print(flag);
     }
 }
